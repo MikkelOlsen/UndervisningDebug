@@ -1,0 +1,94 @@
+.debug {
+    position: fixed;
+    height: auto;
+    width: 250px;
+    bottom: 47%;
+    right: 0.5%;
+    background-color: rgba(34, 34, 34, 0.85);
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid red;
+    z-index: 99999;
+
+    /* round the corners */
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+
+
+    /* make it glow! */
+    -webkit-box-shadow: 0px 0px 20px red;
+    -moz-box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px red; /* some variation of blue for the shadow */
+
+}
+
+.debug:focus {
+    outline: none;
+    border-color: yellow;
+
+    -webkit-box-shadow: 0px 0px 50px red;
+    -moz-box-shadow: 0px 0px 50px red;
+    box-shadow: 0px 0px 50px red; /* some variation of blue for the shadow */
+}
+
+.debug h4 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
+.debug p {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+kbd {
+    display: block;
+    position: fixed;
+    bottom: 0.5%;
+    right: 0.5%;
+}
+
+
+/** Profile Page **/
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+
+#profile_img {
+    margin-left: -50px;
+    margin-top: 20px;
+}
